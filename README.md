@@ -28,8 +28,8 @@ puedes usarlo con sass o css
 
 ## Con Sass
 * Instale gepres-animate con el comando `npm install --save-dev gepres-animate`
+* establecer la variable `$animateHelpers:false` para compilar lo necesario ( hacerlo antes del import)
 * Importante `gepres-animate/gepres-animate` en su proyecto.
-* establecer la variable `animatehelpers:false` para compilar lo necesario
 * los mixins disponibles son: 
 ```scss
 fadeIn($time)
