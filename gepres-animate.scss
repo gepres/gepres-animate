@@ -1,0 +1,17 @@
+/*
+  This boilerplate is based in ITCSS and SMACSS
+*/
+
+// dafaut pasar que no complile 
+$animateHelpers: true !default;
+// Base and elements (generic)
+@import "src/scss/base/base.scss";
+
+// animation
+@import "src/scss/sanimations/fade";
+@import "src/scss/animations/slide";
+@import "src/scss/animations/zoom";
+@import "src/scss/animations/bounce";
+@import "src/scss/animations/extras";
+@import "src/scss/animations/examples";
+@import "src/scss/animations/animate-helpers";
