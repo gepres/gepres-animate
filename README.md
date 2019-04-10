@@ -1,5 +1,3 @@
-
-
 # Gepres animate
 
 Es una libreria de animaciones con mixins en sass
@@ -33,7 +31,7 @@ puedes usarlo con sass o css
 * Importante `gepres-animate/gepres-animate` en su proyecto.
 * establecer la variable `animatehelpers:false` para compilar lo necesario
 * los mixins disponibles son: 
-```css
+```scss
 fadeIn($time)
 fadeOut($time)
 slideLeft($time)
